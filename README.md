@@ -11,6 +11,6 @@ src/zeros_same_size.rs
 
 src/zeros_lower_dim.rs
 
-## 対象の配列の任意の１次元の長さが、任意の大きさだけ短い配列を作成する
+## 対象の配列の任意の１次元の長さが、任意の大きさだけ短いゼロ配列を作成する
 
 src/zeros_short_axis.rs
