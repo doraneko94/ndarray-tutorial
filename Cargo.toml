@@ -1,0 +1,22 @@
+[package]
+name = "ndarray-tutorial"
+version = "0.1.0"
+authors = ["doraneko94 <shuntaro94@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ndarray = "0.15.1"
+
+[[bin]]
+name = "zeros_same_size"
+path = "src/zeros_same_size.rs"
+
+[[bin]]
+name = "zeros_lower_dim"
+path = "src/zeros_lower_dim.rs"
+
+[[bin]]
+name = "zeros_short_axis"
+path = "src/zeros_short_axis.rs"
